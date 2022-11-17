@@ -90,6 +90,25 @@ h2.sx-title {
 .ex-tag ul li a{
 
 }
+div#target {
+    margin-top: 60px;
+}
+button.Show {
+    background: #000;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size:12px;
+}
+button.Hide {
+    background: #000;
+    border: none;
+    padding: 3px 10px;
+    border-radius: 4px;
+    color: #fff;
+    font-size:14px;
+}
 </style>
 <!-- Header Part End -->
 
@@ -195,9 +214,18 @@ h2.sx-title {
                                             <p><i class="fa fa-check-circle" aria-hidden="true"></i>     Verified | 412 users today</p>
                                          </div>
                                          <div class="bx-2">
-                                            <a href="#">Detail</a>
+                                            <!-- <a href="#">Detail</a> -->
+                                            <button class="Show">Detail</button>
+                                            <button class="Hide">Close</button>
                                             <a href="couponcode.php" class="btn btn-primary">Get Code</a>
                                          </div>
+                                        <div id="target" class="st-wt">
+                                            <p>
+                                                Choose the items you want to purchase
+                                                To take advantage of this deal, use the promo code
+                                                Pay with your HDFC credit card.
+                                            </p>
+                                        </div>
                                      </div>
                                  </div>
                                  <div class="col-md-12">
